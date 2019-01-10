@@ -10,10 +10,9 @@ CREATE TABLE recipes (
     url VARCHAR(30) NOT NULL,
     ingredientLines VARCHAR(30) NOT NULL,
     instructions VARCHAR(30) NOT NULL,
-    comments VARHCAR(150) NOT NULL,
-    ratings INT (10) NOT NULL,
+    comments VARCHAR(150) NOT NULL,
+    ratings INT NOT NULL,
     dietLabels VARCHAR(30) NOT NULL,
-    healthLabels VARCHAR(30) NOT NULL
-)
-
-INSERT INTO 
+    healthLabels VARCHAR(30) NOT NULL,
+    PRIMARY KEY (id)
+);
